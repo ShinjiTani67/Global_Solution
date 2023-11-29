@@ -5,22 +5,15 @@ def menu():
     print("opção de calculo de IMC(4)")
 
 def login():
-    login = input("Você gostaria de fazer cadastro[c] ou um login[l]:")
-    while login != 0:
-        if login == "c".lower():
-            email = input("Digite o seu nome de usuário: ")
-            senha = input("Digite a senha: ")
-            print(f'O deu nome de usuário é {email}'' e a sua senha é ', f'{senha}' )
-        pass
-        elif login = "l".lower():
-            nome_usuario = input("Digite o seu nome de usuário: ")
-            senha = input("Digite a senha: ")
-            print(f'O deu nome de usuário é {nome_usuario}'' e a sua senha é ', f'{senha}' )
-            print("login efetuado")
-        pass
-        else:
-            print("opção não foi aceita")
-        pass
+    nome_usuario = "nando"
+    senha = 123
+    nome_login = input("digite o seu nome de usuario: ")
+    senha_login = input("digite a senha do login: ")
+    if nome_login == nome_usuario and senha_login == senha:
+        print("Bem Vindo")
+    else:
+        print("senha ou nome de usuario invalidados")
+        print("caso não possua um login, ir para a página de cadastro")
 
 def calculoIMC():
     peso = float(input("Por favor digite o seu peso: "))
@@ -40,6 +33,7 @@ def calculoIMC():
         print("Obesidade nivel 3")
 
 #===============================================================================================================
+
 login()
 menu()
 opcao = int(input("Por favor digite a sua opção desejada: "))
