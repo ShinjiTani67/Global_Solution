@@ -1,8 +1,8 @@
 # Global_Solution
 Integrantes
 Fernando Tanigushi - RM553587
-Guilherme Gambarão - RM
-Ilda Afolso - RM
+Guilherme Gambarão - RM554258
+Ilda Afolso - RM554216
 
 Descriçaõ do projeto
 
@@ -20,3 +20,4 @@ além das quatro opções de Calcular o IMC, Calendário de Vacina, Dicas de Sa�
 O site também é capaz de guardar bancos de dados de informações em especifico
 
 Video
+https://youtu.be/y4jR2YJ-NY8?si=epFpbS6Jk9aKv22_
